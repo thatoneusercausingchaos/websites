@@ -1,13 +1,55 @@
-body, pre {
-  font-family: Arial, Sans-Serif;
+html, body {
+  font-family: Arial,Sans-Serif;
   text-align: center;
+  padding: 10px;
 }
 
-a:link, a:visited {
-  color: #0000ee;
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.links-border1 {
+  border: 3px solid black;
+  padding: 15px;
+  display: block;
+  width: 200px;
+  height: 430px;
+}
+
+.links-border2 {
+  border: 3px solid black;
+  padding: 15px;
+  display: block;
+  width: 250px;
+  height: 430px;
+}
+
+.short-links-border {
+  border: 3px solid black;
+  padding: 15px;
+  display: block;
+  width: 200px;
+  height: 200px;
+  margin: auto;
+  margin-top: 20px;
+}
+
+.button {
+  background-color: #04AA6D;
+  border: none;
+  color: white;
+  padding: 15px 32px;
   text-decoration: none;
+  display: block;
+  margin: auto;
+  font-size: 16px;
+  cursor: pointer;
+  margin-top: 10px;
 }
 
-.space, pre {
-  line-height: 2.0;
+.button:hover {
+  background-color: #018554;
 }
